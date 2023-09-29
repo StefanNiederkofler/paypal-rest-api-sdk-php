@@ -1,0 +1,28 @@
+{
+    "name": "StefanNiederkofler/paypal-rest-api-sdk-php",
+    "description": "PayPal's PHP SDK for REST APIs",
+    "keywords": [],
+    "type": "library",
+    "license": "Apache-2.0",
+    "homepage": "http://paypal.github.io/PayPal-PHP-SDK/",
+    "authors": [
+        {
+            "name": "Stefan Niederkofler",
+            "homepage": "https://github.com/StefanNiederkofler/paypal-rest-api-sdk-php"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "psr/log": "^1.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8.35"
+    },
+    "autoload": {
+        "psr-0": {
+            "PayPal": "lib/"
+        }
+    }
+}
